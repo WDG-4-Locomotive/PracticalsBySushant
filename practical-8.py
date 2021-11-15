@@ -8,10 +8,10 @@ if terms < 0 or terms == 0 :
         terms = int(input("Enter number greater than 0 \n"))#AWESOME SUSHANT
 
 elif terms == 1 :
-    print(f"Fibonacci series for the given {terms} is {n2} ")
+    print(f"Fibonacci series upto {terms} is {n2} ")
 
 elif terms > 1:
-    print(f"Fibonacci series for {terms} is ")
+    print(f"Fibonacci series upto {terms} is ")
     while nth < terms :
         print(n1,end=" ")
         nth = n1 + n2
@@ -20,7 +20,7 @@ elif terms > 1:
 
 # Output
 # Enter the nth term 
-# 99999
-# Fibonacci series for 99999 is 
-# 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368
+# 999999
+# Fibonacci series upto 999999 is 
+# 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 
         

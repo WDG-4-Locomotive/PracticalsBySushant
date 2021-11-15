@@ -18,7 +18,7 @@ elif num > 0:
     def armstrong():
         global temp_num
         global sum_of_num
-        while temp_num > 0:
+        while temp_num > 0:                                                                                                                                  
             remainder_a = temp_num % 10  #it will take the last digit from num 
             sum_of_num = sum_of_num + remainder_a ** len_of_num 
             temp_num = temp_num // 10  #to remove the last digit from num 
